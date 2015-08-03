@@ -5,10 +5,13 @@ window.addEventListener("load", function(){
 
 
     function testShadow() {
+        alert(i);
+        i = 10000000
         alert(i)
     }
 
     testShadow()
+    alert(i)
 });
 
 
